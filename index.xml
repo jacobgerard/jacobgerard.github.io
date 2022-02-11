@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jacob Gerard</title>
+    <link>https://jagerard.com/</link>
+    <description>Recent content on Jacob Gerard</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jagerard.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generic Data Structures in C</title>
+      <link>https://jagerard.com/posts/structures/</link>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jagerard.com/posts/structures/</guid>
+      <description>Idea I&amp;rsquo;ve been working on a few small programming projects over the past few weeks. C++ and it&amp;rsquo;s object oriented model makes generic data structures a lot simpler, but the syntax and bloat of everything gets a little complex. Recently I&amp;rsquo;ve been using C for most everything besides small web projects. I decided to build up my own little library of generic data structures so that I can just pull these into any projects moving forward.</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://jagerard.com/posts/hello-world/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jagerard.com/posts/hello-world/</guid>
+      <description>I&amp;rsquo;m a computer science graduate interested in cyber security and systems programming. I don&amp;rsquo;t currently work in a technical role that would be beneficial to getting a job in the cyber field. There is a plan in place for that to change in the next few years, but in the meantime I figured that a blog would give me a platform to showcase my studies, projects, and research. It will also (hopefully) motivate me to keep moving in the right direction during my free time!</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://jagerard.com/about/</link>
+      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://jagerard.com/about/</guid>
+      <description>I&amp;rsquo;m a Computer Science graduate from the US Naval Academy interested in systems programming, capture the flag challenges, and experimenting with free software projects. In the past, I&amp;rsquo;ve assisted with research on parallelized visualization techniques and graph encryption algorithms. I am currently learning the basics of Linux Kernel development. Outside of the computing world, I enjoy playing volleyball and card games with friends.</description>
+    </item>
+    
+  </channel>
+</rss>
