@@ -7,11 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 24 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://jagerard.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 13 Mar 2022 00:00:00 -0600</lastBuildDate><atom:link href="https://jagerard.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Book Notes - Napoleon: A Life</title>
+      <link>https://jagerard.com/posts/napoleon/</link>
+      <pubDate>Sun, 13 Mar 2022 00:00:00 -0600</pubDate>
+      
+      <guid>https://jagerard.com/posts/napoleon/</guid>
+      <description>By Andrew Roberts Impressions Napoleon was one of the most influential figures in history. He was a general who rarely lost battles and did not needlessly start wars (most were declared on him). He had a constant desire to be doing work and was extremely well read and interested in a multitude of subjects. Many of his actions impacted the next century in Europe and led to military formations and administration that is still with us today.</description>
+    </item>
+    
     <item>
       <title>Generic Data Structures in C</title>
       <link>https://jagerard.com/posts/structures/</link>
-      <pubDate>Sun, 24 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 24 Oct 2021 00:00:00 -0600</pubDate>
       
       <guid>https://jagerard.com/posts/structures/</guid>
       <description>Idea I&amp;rsquo;ve been working on a few small programming projects over the past few weeks. C++ and it&amp;rsquo;s object oriented model makes generic data structures a lot simpler, but the syntax and bloat of everything gets a little complex. Recently I&amp;rsquo;ve been using C for most everything besides small web projects. I decided to build up my own little library of generic data structures so that I can just pull these into any projects moving forward.</description>
@@ -20,10 +29,10 @@
     <item>
       <title>Hello World</title>
       <link>https://jagerard.com/posts/hello-world/</link>
-      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Oct 2021 00:00:00 -0600</pubDate>
       
       <guid>https://jagerard.com/posts/hello-world/</guid>
-      <description>I&amp;rsquo;m a computer science graduate interested in cyber security and systems programming. I don&amp;rsquo;t currently work in a technical role that would be beneficial to getting a job in the cyber field. There is a plan in place for that to change in the next few years, but in the meantime I figured that a blog would give me a platform to showcase my studies, projects, and research. It will also (hopefully) motivate me to keep moving in the right direction during my free time!</description>
+      <description>I’m a computer science graduate interested in cyber security and systems programming. I don’t currently work in a technical role that would be beneficial to getting a job in the cyber field. There is a plan in place for that to change in the next few years, but in the meantime I figured that a blog would give me a platform to showcase my studies, projects, and research. It will also (hopefully) motivate me to keep moving in the right direction during my free time!</description>
     </item>
     
     <item>
