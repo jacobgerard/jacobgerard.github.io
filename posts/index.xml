@@ -6,8 +6,134 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Thu, 25 Aug 2022 00:00:00 -0600</lastBuildDate>
+        <lastBuildDate>Fri, 30 Dec 2022 00:00:00 -1000</lastBuildDate>
         <atom:link href="https://jagerard.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>2022 Yearly Learning Wrap Up</title>
+            <link>https://jagerard.com/posts/2022wrapup/</link>
+            <pubDate>Fri, 30 Dec 2022 00:00:00 -1000</pubDate>
+            
+            <guid>https://jagerard.com/posts/2022wrapup/</guid>
+            <description>This is a short summary of all the things I&amp;rsquo;ve been working on for the past year. It was a packed schedule for all aspects of my life, and taking time at the end of the day to sit down and learn something new wasn&amp;rsquo;t always the top priority. But I was able to squeeze in a few useful topics that have been fun in my time off work. Most of the coding and technology skills were used to build out my home website.</description>
+            <content type="html"><![CDATA[<p>This is a short summary of all the things I&rsquo;ve been working on for the past
+year. It was a packed schedule for all aspects of my life, and taking time at
+the end of the day to sit down and learn something new wasn&rsquo;t always the top
+priority. But I was able to squeeze in a few useful topics that have been fun
+in my time off work. Most of the coding and technology skills were used to
+build out my home website.</p>
+<h2 id="computing">Computing</h2>
+<p>For a little over a year I have been internally hosting a Flask website that
+takes in expense data and tracks savings progress in Python. This all hooks in
+to a SQLite database which I can query or run simple analytics on to track my
+financial goals. It started out very basic with Jinja templates that would show
+the results of queries, but has since grown to support almost all of my
+financial needs.</p>
+<p>During the first half of the year I decided to really step it up. I optimized
+the back end and made more efficient use of SQL queries. During the late spring
+and early summer I learned JavaScript basics and wrote an API layer so that I
+could run Asynchronous queries and update the DOM to reflect this. I improved
+the overall layout of the site with more refined CSS. Then, towards the end of
+the year, I again improved on the layout and fixed all the spaghetti code that
+I wrote to manage the single page application sections. I also began to study a
+little bit of data science and plotting with matplotlib and used that to write
+an awesome year end summary in LaTeX.</p>
+<p>These skills sort of moved all over the place, but I basically did a slow build
+up from an idea that I had last year. I was tired of trying to track things
+across different Excel pages and knew that a database would be a more elegant
+solution. I progressively built a web application that could cleanly represent
+my data and motivate me to progress quickly to my savings goals. Currently the
+site inputs and updates expenses, tracks budgets, retrieves savings and net
+worth numbers, and charts out growth. I can filter queries and easily navigate
+through the main functions.</p>
+<p>On top of that, I can proudly say that I wrote all the front end code for this
+website by hand (including the CSS) to eliminate any calls to outside libraries
+like Bootstrap. The back end is Python that uses Flask to serve the application
+and feeds off business logic that I wrote for a command line version of the
+budgeting software. All this is self-hosted on my Fedora desktop and served
+through an NGINX web server.</p>
+<p>I will continue to build features onto this site throughout 2023. The primary
+thing I&rsquo;m missing is a nice way to check on my investment data within the web
+app. I think that I will be able to build out a few pages that either track
+what I already have at the beginning of each month, or potentially log into the
+sites and scrape my investment data into the app. I&rsquo;ll take a break at the
+beginning of the year, but will probably hit the ground running on that in
+February.</p>
+<p>I would love to upload this project to my GitHub page, but due to the sensitive
+nature of financial data I have been reluctant to do that for fear that I left
+some major identifying information in the code. I will be attempting to go
+through and clean my git repo so that this can be made public. There are other
+projects that can do this better; but I have learned a lot while implementing
+this and it fits my needs nicely.</p>
+<h2 id="books">Books</h2>
+<p>I&rsquo;ve read 13 books and wrote up 3 posts with notes and quotes! I&rsquo;ll link those
+here and then post my impressions of a few of the others that I learned a good
+deal from. I highly recommend <em>The Psychology of Money</em> by Morgan Housel as I
+think everybody can get a lot out of it. Plus its a fairly quick read.</p>
+<ol>
+<li><input checked="" disabled="" type="checkbox"> <a href="/posts/napoleon">Napoleon: A Life - Andrew Roberts</a></li>
+<li><input checked="" disabled="" type="checkbox"> Ender&rsquo;s Game - Orson Scott Card</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="/posts/genghis-khan">Genghis Khan and the Making of the Modern World - Jack Weatherford</a></li>
+<li><input checked="" disabled="" type="checkbox"> Where the Crawdads Sing - Delia Owens</li>
+<li><input checked="" disabled="" type="checkbox"> Dune - Frank Herbert</li>
+<li><input checked="" disabled="" type="checkbox"> Verity - Colleen Hoover</li>
+<li><input checked="" disabled="" type="checkbox"> <a href="/posts/china">China: A History - John Keay</a></li>
+<li><input checked="" disabled="" type="checkbox"> Starship Troopers - Robert Heinlein</li>
+<li><input checked="" disabled="" type="checkbox"> Psychology of Money - Morgan Housel
+<ul>
+<li>Good stories about how to be more successful in personal finances by
+staying the course and recognizing that some people or industries just
+get lucky. Long term investing is the surest path to success and you need
+to save just for unexpected life events, not necessarily only for big
+purchases.</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> Catch-22 - Joseph Heller</li>
+<li><input checked="" disabled="" type="checkbox"> Outliers: The Story of Success - Malcolm Gladwell
+<ul>
+<li>Success is tough to achieve just by hard work alone. Most of the
+extremely successful people in the world had very unusual circumstances
+that put them in positions to be the best at something right when it was
+necessary. There is not much to do to control that. But it also points
+out that the people you surround yourself with are very likely to have a
+large impact on your standing in the world.</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> A Brief History of Time - Stephen Hawking
+<ul>
+<li>Stunning overview of very complicated math and science in an easily
+digestable format. This is an inspiration to start looking into those
+tough problems with a new lens about how they all fit together into grand
+theories of the universe.</li>
+</ul>
+</li>
+<li><input checked="" disabled="" type="checkbox"> Thinking Fast and Slow - Daniel Kahneman</li>
+</ol>
+<h2 id="random">Random</h2>
+<p>I have also spent a fair amount of time listening to a few podcasts that
+interest me. Sticking with the theme of finances, I love the Rational Reminder
+podcast and try to listen to each episode as they come out weekly. I also fit
+in a few episodes of Hardcore History by Dan Carlin. They are longer shows, but
+packed with tons of information and tell history in a way that you usually
+can&rsquo;t get from anywhere else unless you want to read textbooks all day.</p>
+<p>I&rsquo;ve also read the Wall Street Journal (almost daily), Foreign Affairs, The
+Economist (in the last quarter of the year), and a few articles from the US
+Naval Institute Proceedings. Next year, I am going to cut down on the
+newspapers and magazines that I read in order to fit in more books. Aiming for
+23 in 2023 after inspiration from the folks at the Rational Reminder podcast.</p>
+<h2 id="wrap-up">Wrap Up</h2>
+<p>That is basically a summary of my year in learning for 2022. I tried to get up
+and learn something new each week. There are lots of little lessons in there
+that I learned throughout as well, but not everything merits a comment on this
+blog. I plan to keep pushing myself further next year. The one area where I
+didn&rsquo;t take much advantage of my time was keeping this site up to date. I will
+try to get better with that and may post some smaller articles about simple
+topics as how-to references for myself and anybody else who happens to stumble
+on these notes. Please feel free to reach out if you have any questions or
+recommendations for things that I can take a look at. Always looking for new
+knowledge!</p>
+]]></content>
+        </item>
         
         <item>
             <title>Book Notes - China: A History</title>
@@ -230,18 +356,18 @@ Macnamara said ‘he thought he saw the Emperor’s eyes moisten.’</li>
 <p>The other disadvantage of using these void pointers is that it could get confusing if you try to access things without saving function pointers to print or compare elements. I wrote the code so I know that if I just stick to the public functions things should be fine. But trying to make direct accesses to the internals of these structures could cause a lot of problems.</p>
 <p>Overall this experience has definitely highlighted the advantage of using a language like C++ for stronger types and operator overloading. But I&rsquo;m happy I gave it a shot and know that it will come in handy moving forward. I will post the more complete set of code on my GitHub, but below is a short example of how I was managing the generics in my structures. I plan on providing a useful and working implementation of Array List, Linked List, Binary Search Tree, AVL Tree, B-Tree, and Hash Table.</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C" data-lang="C"><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> alist{
-</span></span><span style="display:flex;"><span>    size_t elementsize;
-</span></span><span style="display:flex;"><span>    size_t maxsize;
-</span></span><span style="display:flex;"><span>    size_t size;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">size_t</span> elementsize;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">size_t</span> maxsize;
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">size_t</span> size;
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#f92672">*</span>list;
 </span></span><span style="display:flex;"><span>};
 </span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> alist <span style="color:#f92672">*</span><span style="color:#a6e22e">alist_init</span>(size_t elementsize, size_t maxsize){
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">struct</span> alist <span style="color:#f92672">*</span>list <span style="color:#f92672">=</span> malloc(<span style="color:#66d9ef">sizeof</span>(<span style="color:#f92672">*</span>list));
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> alist <span style="color:#f92672">*</span><span style="color:#a6e22e">alist_init</span>(<span style="color:#66d9ef">size_t</span> elementsize, <span style="color:#66d9ef">size_t</span> maxsize){
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">struct</span> alist <span style="color:#f92672">*</span>list <span style="color:#f92672">=</span> <span style="color:#a6e22e">malloc</span>(<span style="color:#66d9ef">sizeof</span>(<span style="color:#f92672">*</span>list));
 </span></span><span style="display:flex;"><span>    list<span style="color:#f92672">-&gt;</span>elementsize <span style="color:#f92672">=</span> elementsize;
 </span></span><span style="display:flex;"><span>    list<span style="color:#f92672">-&gt;</span>maxsize <span style="color:#f92672">=</span> maxsize;
 </span></span><span style="display:flex;"><span>    list<span style="color:#f92672">-&gt;</span>size <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-</span></span><span style="display:flex;"><span>    list<span style="color:#f92672">-&gt;</span>list <span style="color:#f92672">=</span> malloc(elementsize <span style="color:#f92672">*</span> maxsize);
+</span></span><span style="display:flex;"><span>    list<span style="color:#f92672">-&gt;</span>list <span style="color:#f92672">=</span> <span style="color:#a6e22e">malloc</span>(elementsize <span style="color:#f92672">*</span> maxsize);
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(list<span style="color:#f92672">-&gt;</span>list <span style="color:#f92672">==</span> NULL){
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> NULL;
 </span></span><span style="display:flex;"><span>    }
@@ -251,7 +377,7 @@ Macnamara said ‘he thought he saw the Emperor’s eyes moisten.’</li>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">alist_insert</span>(<span style="color:#66d9ef">struct</span> alist <span style="color:#f92672">*</span>list, <span style="color:#66d9ef">unsigned</span> <span style="color:#66d9ef">int</span> position, <span style="color:#66d9ef">void</span> <span style="color:#f92672">*</span>valptr){
 </span></span><span style="display:flex;"><span>    ...
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">uint8_t</span> <span style="color:#f92672">*</span>array <span style="color:#f92672">=</span> list<span style="color:#f92672">-&gt;</span>list;
-</span></span><span style="display:flex;"><span>    memcpy(<span style="color:#f92672">&amp;</span>array[position <span style="color:#f92672">*</span> list<span style="color:#f92672">-&gt;</span>elementsize], valptr, list<span style="color:#f92672">-&gt;</span>elementsize);
+</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">memcpy</span>(<span style="color:#f92672">&amp;</span>array[position <span style="color:#f92672">*</span> list<span style="color:#f92672">-&gt;</span>elementsize], valptr, list<span style="color:#f92672">-&gt;</span>elementsize);
 </span></span><span style="display:flex;"><span>    ...
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div>]]></content>
