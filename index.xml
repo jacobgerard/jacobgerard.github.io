@@ -5,72 +5,58 @@
     <link>https://jagerard.com/</link>
     <description>Recent content on Jacob Gerard</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 30 Dec 2022 00:00:00 -1000</lastBuildDate><atom:link href="https://jagerard.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jagerard.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2022 Yearly Learning Wrap Up</title>
       <link>https://jagerard.com/posts/2022wrapup/</link>
       <pubDate>Fri, 30 Dec 2022 00:00:00 -1000</pubDate>
-      
       <guid>https://jagerard.com/posts/2022wrapup/</guid>
       <description>This is a short summary of all the things I&amp;rsquo;ve been working on for the past year. It was a packed schedule for all aspects of my life, and taking time at the end of the day to sit down and learn something new wasn&amp;rsquo;t always the top priority. But I was able to squeeze in a few useful topics that have been fun in my time off work. Most of the coding and technology skills were used to build out my home website.</description>
     </item>
-    
     <item>
       <title>Book Notes - China: A History</title>
       <link>https://jagerard.com/posts/china/</link>
       <pubDate>Thu, 25 Aug 2022 00:00:00 -0600</pubDate>
-      
       <guid>https://jagerard.com/posts/china/</guid>
       <description>By John Keay Impressions The Chinese have had an extremely well detailed history due to their fantastic record keeping. Their civilization has been extremely successful, relatively continuous, and greatly influential around the world. They seem to specialize in taking ideas from all over and improving on them for personal gain. The current ruling power of the CCP has a much different take on Heaven&amp;rsquo;s Mandate to rule, but they are still interested in how history can be twisted to justify current foreign policy positions.</description>
     </item>
-    
     <item>
       <title>Book Notes - Genghis Khan and the Making of the Modern World</title>
       <link>https://jagerard.com/posts/genghis-khan/</link>
       <pubDate>Thu, 24 Mar 2022 00:00:00 -0600</pubDate>
-      
       <guid>https://jagerard.com/posts/genghis-khan/</guid>
-      <description>By Jack Weatherford Impressions The Mongols had an enormous impact on the world around them. They proved that a Steppe people could conquer better due to their speed on the battlefield. They also took skills from all areas of their empire to expand capabilities, commerce, and improve the lives of all their subjects. They fell prey to internal rivalries and losing their military ways after a few generations.
-Actionable Notes Always learn from adversaries and do not be afraid to try new tactics.</description>
+      <description>By Jack Weatherford Impressions The Mongols had an enormous impact on the world around them. They proved that a Steppe people could conquer better due to their speed on the battlefield. They also took skills from all areas of their empire to expand capabilities, commerce, and improve the lives of all their subjects. They fell prey to internal rivalries and losing their military ways after a few generations.&#xA;Actionable Notes Always learn from adversaries and do not be afraid to try new tactics.</description>
     </item>
-    
     <item>
       <title>Book Notes - Napoleon: A Life</title>
       <link>https://jagerard.com/posts/napoleon/</link>
       <pubDate>Sun, 13 Mar 2022 00:00:00 -0600</pubDate>
-      
       <guid>https://jagerard.com/posts/napoleon/</guid>
       <description>By Andrew Roberts Impressions Napoleon was one of the most influential figures in history. He was a general who rarely lost battles and did not needlessly start wars (most were declared on him). He had a constant desire to be doing work and was extremely well read and interested in a multitude of subjects. Many of his actions impacted the next century in Europe and led to military formations and administration that is still with us today.</description>
     </item>
-    
     <item>
       <title>Generic Data Structures in C</title>
       <link>https://jagerard.com/posts/structures/</link>
       <pubDate>Sun, 24 Oct 2021 00:00:00 -0600</pubDate>
-      
       <guid>https://jagerard.com/posts/structures/</guid>
       <description>Idea I&amp;rsquo;ve been working on a few small programming projects over the past few weeks. C++ and it&amp;rsquo;s object oriented model makes generic data structures a lot simpler, but the syntax and bloat of everything gets a little complex. Recently I&amp;rsquo;ve been using C for most everything besides small web projects. I decided to build up my own little library of generic data structures so that I can just pull these into any projects moving forward.</description>
     </item>
-    
     <item>
       <title>Hello World</title>
       <link>https://jagerard.com/posts/hello-world/</link>
       <pubDate>Thu, 14 Oct 2021 00:00:00 -0600</pubDate>
-      
       <guid>https://jagerard.com/posts/hello-world/</guid>
       <description>I’m a computer science graduate interested in cyber security and systems programming. I don’t currently work in a technical role that would be beneficial to getting a job in the cyber field. There is a plan in place for that to change in the next few years, but in the meantime I figured that a blog would give me a platform to showcase my studies, projects, and research. It will also (hopefully) motivate me to keep moving in the right direction during my free time!</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://jagerard.com/about/</link>
-      <pubDate>Fri, 15 Oct 2021 00:00:00 +0000</pubDate>
-      
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://jagerard.com/about/</guid>
-      <description>I&amp;rsquo;m a Computer Science graduate from the US Naval Academy interested in systems programming, capture the flag challenges, and experimenting with free software projects. In the past, I&amp;rsquo;ve assisted with research on parallelized visualization techniques and graph encryption algorithms. I am currently learning the basics of Linux Kernel development. Outside of the computing world, I enjoy playing volleyball and card games with friends.</description>
+      <description>I&amp;rsquo;m a Computer Science graduate from the US Naval Academy interested in systems programming and experimenting with free software projects. In the past, I&amp;rsquo;ve assisted with research on parallelized visualization techniques and graph encryption algorithms. Outside of the computing world, I enjoy playing volleyball and card games with friends.</description>
     </item>
-    
   </channel>
 </rss>

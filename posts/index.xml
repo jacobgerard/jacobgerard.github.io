@@ -4,7 +4,7 @@
         <link>https://jagerard.com/posts/</link>
         <description>Recent content in Posts on Jacob Gerard</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
+        <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
         <lastBuildDate>Fri, 30 Dec 2022 00:00:00 -1000</lastBuildDate>
         <atom:link href="https://jagerard.com/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -71,13 +71,13 @@ here and then post my impressions of a few of the others that I learned a good
 deal from. I highly recommend <em>The Psychology of Money</em> by Morgan Housel as I
 think everybody can get a lot out of it. Plus its a fairly quick read.</p>
 <ol>
-<li><input checked="" disabled="" type="checkbox"> <a href="/posts/napoleon">Napoleon: A Life - Andrew Roberts</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="/posts/napoleon/">Napoleon: A Life - Andrew Roberts</a></li>
 <li><input checked="" disabled="" type="checkbox"> Ender&rsquo;s Game - Orson Scott Card</li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/posts/genghis-khan">Genghis Khan and the Making of the Modern World - Jack Weatherford</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="/posts/genghis-khan/">Genghis Khan and the Making of the Modern World - Jack Weatherford</a></li>
 <li><input checked="" disabled="" type="checkbox"> Where the Crawdads Sing - Delia Owens</li>
 <li><input checked="" disabled="" type="checkbox"> Dune - Frank Herbert</li>
 <li><input checked="" disabled="" type="checkbox"> Verity - Colleen Hoover</li>
-<li><input checked="" disabled="" type="checkbox"> <a href="/posts/china">China: A History - John Keay</a></li>
+<li><input checked="" disabled="" type="checkbox"> <a href="/posts/china/">China: A History - John Keay</a></li>
 <li><input checked="" disabled="" type="checkbox"> Starship Troopers - Robert Heinlein</li>
 <li><input checked="" disabled="" type="checkbox"> Psychology of Money - Morgan Housel
 <ul>
