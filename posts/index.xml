@@ -6,8 +6,62 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 30 Dec 2022 00:00:00 -1000</lastBuildDate>
+        <lastBuildDate>Tue, 24 Dec 2024 00:00:00 -0500</lastBuildDate>
         <atom:link href="https://jagerard.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>2024 Books</title>
+            <link>https://jagerard.com/posts/2024books/</link>
+            <pubDate>Tue, 24 Dec 2024 00:00:00 -0500</pubDate>
+            
+            <guid>https://jagerard.com/posts/2024books/</guid>
+            <description>&lt;p&gt;In the past few years I&amp;rsquo;ve set some pretty high reading goals for myself (23 in 2023 and 24 in 2024) and came up short each time. Basically I&amp;rsquo;ve started out each year strong but then got sidetracked by work, learning other things, and pure laziness come late-summer. I still learned a lot and enjoyed the books I&amp;rsquo;ve read each year, but obviously want to push myself to read more. Without going to look up the stats, I think I heard that around 10,000 books come out each year and the average American reads less than 10. I am trying to change this for myself since I appreciate the longer form content and feel that I get a lot more out of it.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>In the past few years I&rsquo;ve set some pretty high reading goals for myself (23 in 2023 and 24 in 2024) and came up short each time. Basically I&rsquo;ve started out each year strong but then got sidetracked by work, learning other things, and pure laziness come late-summer. I still learned a lot and enjoyed the books I&rsquo;ve read each year, but obviously want to push myself to read more. Without going to look up the stats, I think I heard that around 10,000 books come out each year and the average American reads less than 10. I am trying to change this for myself since I appreciate the longer form content and feel that I get a lot more out of it.</p>
+<p>To be fair to myself I have still done mostly productive things with that time in both 2023 and 2024. But I have either made excuses to stop reading during the busier times or just hit the wall with whatever book I was currently on. This coming year I am aiming to change that by loosening the restrictions on type of books I consume. I have sporadically maintained a list of want-to-reads on Goodreads which informed my choices in the past. But in 2025 I am hoping to just pick up whatever looks interesting and that I will power through at the time. I still hope to do a decent split between fiction and non-fiction; but won&rsquo;t be limiting myself to that.</p>
+<p>I&rsquo;m excited to get started on it and am also aiming to write my updates here (along with whether I am ahead or behind) to stay motivated throughout the year. The official goal will once again match up with the year; so 25 in &lsquo;25!</p>
+<p>Without further ado here are my lists for the past two years:</p>
+<h2 id="2023">2023</h2>
+<ol>
+<li>The Innovators - Walter Isaacson</li>
+<li>2001: A Space Odyssey - Arthur C. Clarke</li>
+<li>Chip War - Chris Miller</li>
+<li>Red Rising - Pierce Brown</li>
+<li>The Rise of Athens - Anthony Everitt</li>
+<li>Catcher in the Rye - J.D. Salinger</li>
+<li>Golden Son - Pierce Brown</li>
+<li>Morning Star - Pierce Brown</li>
+<li>Dune: Messiah - Frank Herbert</li>
+<li>Six Frigates - Ian Toll</li>
+<li>Sandworm - Andy Greenberg</li>
+<li>The Name of the Wind - Patrick Rothfuss</li>
+<li>Old Man&rsquo;s War - John Scalzi</li>
+<li>Fourth Wing - Rebecca Yarros</li>
+<li>A Brief Guide to Maritime Strategy - James R. Holmes</li>
+</ol>
+<p>I think that the best books I read were either the first <em>Red Rising</em> trilogy or <em>The Name of the Wind</em>. Unfortunately with the latter there are only two books released and it has been a long time since Patrick Rothfuss released the second. So maybe hold out on this series for the time being if you need closure.</p>
+<h2 id="2024">2024</h2>
+<p>This was the first year that I ever used audiobooks to consume content. It was nice to finish out some of them without needing to sit down and read the entire thing and I honestly don&rsquo;t think I missed out too much on taking notes. I wouldn&rsquo;t do it for a book that I absolutely wanted to get all the nuggets of wisdom from, but there are plenty on my want-to-read list that I will consider audio for.</p>
+<ol>
+<li>The Wise Man&rsquo;s Fear - Patrick Rothfuss</li>
+<li>How Big Things Get Done - Bent Flyvbjerg</li>
+<li>Range: Why Generalists Triumph in a Specialized World - David Epstein</li>
+<li>The Slow Regard of Silent Things - Patrick Rothfuss</li>
+<li>The Exponential Age - Azeem Azhar</li>
+<li>War at the Speed of Light - Louis A. Del Monte</li>
+<li>Team of Teams - Stanley McChrystal</li>
+<li>The Song of Achilles - Madeline Miller</li>
+<li>Stolen Focus - Johann Hari</li>
+<li>The Sun Also Rises - Ernest Hemingway</li>
+<li>Trillions - Robin Wigglesworth</li>
+<li>Thinking In Systems - Donella Meadows</li>
+<li>Iron Gold - Pierce Brown</li>
+<li>SPQR: A History of Ancient Rome - Mary Beard</li>
+<li>Software Engineering at Google</li>
+<li>Dark Age - Pierce Brown</li>
+</ol>
+<p>My favorite book of 2024 was pretty easily <em>How the Big Things Get Done</em>. It was very informative, had lots of interesting anecdotes, and was made relatable to everyday life. There were a few other good ones in the mix, but that would be my big recommendation.</p>
+]]></content>
+        </item>
         
         <item>
             <title>2022 Yearly Learning Wrap Up</title>
@@ -15,7 +69,12 @@
             <pubDate>Fri, 30 Dec 2022 00:00:00 -1000</pubDate>
             
             <guid>https://jagerard.com/posts/2022wrapup/</guid>
-            <description>This is a short summary of all the things I&amp;rsquo;ve been working on for the past year. It was a packed schedule for all aspects of my life, and taking time at the end of the day to sit down and learn something new wasn&amp;rsquo;t always the top priority. But I was able to squeeze in a few useful topics that have been fun in my time off work. Most of the coding and technology skills were used to build out my home website.</description>
+            <description>&lt;p&gt;This is a short summary of all the things I&amp;rsquo;ve been working on for the past
+year. It was a packed schedule for all aspects of my life, and taking time at
+the end of the day to sit down and learn something new wasn&amp;rsquo;t always the top
+priority. But I was able to squeeze in a few useful topics that have been fun
+in my time off work. Most of the coding and technology skills were used to
+build out my home website.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>This is a short summary of all the things I&rsquo;ve been working on for the past
 year. It was a packed schedule for all aspects of my life, and taking time at
 the end of the day to sit down and learn something new wasn&rsquo;t always the top
@@ -141,7 +200,16 @@ knowledge!</p>
             <pubDate>Thu, 25 Aug 2022 00:00:00 -0600</pubDate>
             
             <guid>https://jagerard.com/posts/china/</guid>
-            <description>By John Keay Impressions The Chinese have had an extremely well detailed history due to their fantastic record keeping. Their civilization has been extremely successful, relatively continuous, and greatly influential around the world. They seem to specialize in taking ideas from all over and improving on them for personal gain. The current ruling power of the CCP has a much different take on Heaven&amp;rsquo;s Mandate to rule, but they are still interested in how history can be twisted to justify current foreign policy positions.</description>
+            <description>&lt;h2 id=&#34;by-john-keay&#34;&gt;By John Keay&lt;/h2&gt;
+&lt;h3 id=&#34;impressions&#34;&gt;Impressions&lt;/h3&gt;
+&lt;p&gt;The Chinese have had an extremely well detailed history due to their fantastic
+record keeping. Their civilization has been extremely successful, relatively
+continuous, and greatly influential around the world. They seem to specialize
+in taking ideas from all over and improving on them for personal gain. The
+current ruling power of the CCP has a much different take on Heaven&amp;rsquo;s Mandate
+to rule, but they are still interested in how history can be twisted to justify
+current foreign policy positions. I learned a lot about the geography and why
+their society has advanced differently than Western powers.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<h2 id="by-john-keay">By John Keay</h2>
 <h3 id="impressions">Impressions</h3>
 <p>The Chinese have had an extremely well detailed history due to their fantastic
@@ -161,18 +229,18 @@ greatest impact in foreign policy negotiations.</li>
 <h3 id="quotes">Quotes</h3>
 <ul>
 <li>Of all the issues involved in the power struggle - territorial, dynastic,
-philosophical, and fiscal- perhaps the most surporising was social, in that
+philosophical, and fiscal- perhaps the most surprising was social, in that
 dissent swelled from the lowest ranks of society. Resistance to Qin rule
 proved to be not just popular but populist&hellip; While nationalists would later
 applaud the First Emperor&rsquo;s efforts at unification, and while Maoists would
-approve his autocratic efforts in mass mobilisation, orthodox Marxists would
+approve his autocratic efforts in mass mobilization, orthodox Marxists would
 be more gratified by the anti-Qin response and its early evidence of peasant
 revolt and class consciousness.</li>
 <li>Rome&rsquo;s near-contemporary empire was comparable in size and would last several
-centuries. But China&rsquo;s would weather the millenia. Many explanations -
+centuries. But China&rsquo;s would weather the Millenia. Many explanations -
 geographical, psychological, even genetic - have been offered for the
-contrasting fortunes of the two empiresand for the different political orders
-to which they would give rise - fragmentary and increasingly conensual in the
+contrasting fortunes of the two empires and for the different political orders
+to which they would give rise - fragmentary and increasingly consensual in the
 case of Europe&rsquo;s nation-states, unitary and increasingly authoritarian in the
 case of China&rsquo;s empire. Explanations that emphasize imperial China&rsquo;s more
 effective administrative structure and its more flexible ideology are
@@ -181,7 +249,7 @@ administrative machinery and its ideological lubricant - were honed under the
 Han.</li>
 <li>The Chang&rsquo;an bureaucracy ground to a halt - as bureaucracies do - when the
 supply of paper ran out.</li>
-<li>Born in 599, the great Tang Taizong, contructor if not architect of the Tang
+<li>Born in 599, the great Tang Taizong, constructor if not architect of the Tang
 empire, belonged to a generation of Asian empire-builders. From the Tsangpo
 basin of southern Tibet, Srong-brtsan-sgam-po, his exact contemporary, was
 masterminding the first unification of the scattered peoples of Asia&rsquo;s high
@@ -194,7 +262,7 @@ stretched from Xinjiang to Egypt. And in the far south-west, along the
 caravan routes of Arabia, another contemporary took rejection in Mecca as
 cause for flight (hegira or hijra) to Medina, where, acknowledged as the
 Prophet, he found a following and launched a crescentade that in less than a
-centure would obliterate the Sassanids and buffet the frontiers of both India
+century would obliterate the Sassanids and buffet the frontiers of both India
 and China.</li>
 <li>For just as war, being notoriously unpredictable, was to be considered a last
 resort, so battle was to be offered only when victory was guaranteed. Indeed,
@@ -216,8 +284,64 @@ know what was expected of them.</li>
             <pubDate>Thu, 24 Mar 2022 00:00:00 -0600</pubDate>
             
             <guid>https://jagerard.com/posts/genghis-khan/</guid>
-            <description>By Jack Weatherford Impressions The Mongols had an enormous impact on the world around them. They proved that a Steppe people could conquer better due to their speed on the battlefield. They also took skills from all areas of their empire to expand capabilities, commerce, and improve the lives of all their subjects. They fell prey to internal rivalries and losing their military ways after a few generations.
-Actionable Notes Always learn from adversaries and do not be afraid to try new tactics.</description>
+            <description>&lt;h2 id=&#34;by-jack-weatherford&#34;&gt;By Jack Weatherford&lt;/h2&gt;
+&lt;h3 id=&#34;impressions&#34;&gt;Impressions&lt;/h3&gt;
+&lt;p&gt;The Mongols had an enormous impact on the world around them. They proved that a
+Steppe people could conquer better due to their speed on the battlefield. They
+also took skills from all areas of their empire to expand capabilities,
+commerce, and improve the lives of all their subjects. They fell prey to
+internal rivalries and losing their military ways after a few generations.&lt;/p&gt;
+&lt;h3 id=&#34;actionable-notes&#34;&gt;Actionable Notes&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Always learn from adversaries and do not be afraid to try new tactics.&lt;/li&gt;
+&lt;li&gt;Controlling propaganda and the narrative around a goal is just as important
+as the tactics used to achieve the goal itself.&lt;/li&gt;
+&lt;li&gt;Do not allow enemies a chance to regroup and learn from an initial assault.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;good-quotes&#34;&gt;Good Quotes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Whether measured by the total number of people defeated, the sum of the
+countries annexed, or by the total area occupied, Genghis Khan conquered more
+than twice as much as any other man in history.&lt;/li&gt;
+&lt;li&gt;In order to cut through traditional rivalries and feuds in Athens,
+Cleisthenes abolished the tribes and reassigned everyone to ten units of ten,
+thereby transforming a tribal city into a city-state that grew into the
+strongest military, commercial, artistic, and intellectual power along the
+eastern shore of the Mediterranean Sea. Virtually the same reform would
+produce even more astonishing results for the Mongols on the steppes of Inner
+Asia.&lt;/li&gt;
+&lt;li&gt;The postal service ranked alongside the military in importance for the
+Mongols, and individual Mongols were allowed to serve in it in lieu of
+regular military service.&lt;/li&gt;
+&lt;li&gt;In contrast to the massive infantry armies that moved slowly and fought along
+a particular front or on a specific battlefield, the Mongols practiced
+warfare across the entire territory, and the ensuing turmoil and confusion
+allowed the Mongols to employ clever trickery of all sorts.&lt;/li&gt;
+&lt;li&gt;You may conquer an army with superior tactics and men, but you can conquer a
+nation only by conquering the hearts of the people.&lt;/li&gt;
+&lt;li&gt;Mongke recognized the dangers incurred by earlier administrations that issued
+paper money and debt on an ad hoc basis, and in 1253 he created a Department
+of Monetary Affairs to control and standardize the issuance of paper money.
+The superintendent of the agency centralized control to prevent the overissue
+of paper money and the erosion of its value through inflation.&lt;/li&gt;
+&lt;li&gt;Supposedly, because of the importance of narcotics for the Ismailis, the
+people around them called them hashshashin, meaning “the hashish users.” Over
+time, this name became modified into the word assassin. Whether the killers
+had actually used hashish to inspire them or not, the name spread into many
+languages as the word for the murderer of high officials.&lt;/li&gt;
+&lt;li&gt;The Mongol army had accomplished in a mere two years what the European
+Crusaders from the West and the Seljuk Turks from the East had failed to do
+in two centuries of sustained effort. They had conquered the heart of the
+Arab world. No other non-Muslim troops would conquer Baghdad or Iraq again
+until the arrival of the American and British forces in 2003.&lt;/li&gt;
+&lt;li&gt;The cities of the Khwarizm empire had been a particularly important center
+for mathematic scholarship; the word algorithm was derived from al Khwarizm.&lt;/li&gt;
+&lt;li&gt;General literacy increased during the Mongol dynasty, and the volume of
+literary material grew proportionately.&lt;/li&gt;
+&lt;li&gt;The Mongol armies destroyed the uniqueness of the civilizations around them
+by shattering the protective walls that isolated one civilization from
+another and by knotting the cultures together.&lt;/li&gt;
+&lt;/ul&gt;</description>
             <content type="html"><![CDATA[<h2 id="by-jack-weatherford">By Jack Weatherford</h2>
 <h3 id="impressions">Impressions</h3>
 <p>The Mongols had an enormous impact on the world around them. They proved that a
@@ -285,7 +409,14 @@ another and by knotting the cultures together.</li>
             <pubDate>Sun, 13 Mar 2022 00:00:00 -0600</pubDate>
             
             <guid>https://jagerard.com/posts/napoleon/</guid>
-            <description>By Andrew Roberts Impressions Napoleon was one of the most influential figures in history. He was a general who rarely lost battles and did not needlessly start wars (most were declared on him). He had a constant desire to be doing work and was extremely well read and interested in a multitude of subjects. Many of his actions impacted the next century in Europe and led to military formations and administration that is still with us today.</description>
+            <description>&lt;h2 id=&#34;by-andrew-roberts&#34;&gt;By Andrew Roberts&lt;/h2&gt;
+&lt;h3 id=&#34;impressions&#34;&gt;Impressions&lt;/h3&gt;
+&lt;p&gt;Napoleon was one of the most influential figures in history. He was a general
+who rarely lost battles and did not needlessly start wars (most were declared
+on him). He had a constant desire to be doing work and was extremely well read
+and interested in a multitude of subjects. Many of his actions impacted the
+next century in Europe and led to military formations and administration that
+is still with us today.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<h2 id="by-andrew-roberts">By Andrew Roberts</h2>
 <h3 id="impressions">Impressions</h3>
 <p>Napoleon was one of the most influential figures in history. He was a general
@@ -348,7 +479,8 @@ Macnamara said ‘he thought he saw the Emperor’s eyes moisten.’</li>
             <pubDate>Sun, 24 Oct 2021 00:00:00 -0600</pubDate>
             
             <guid>https://jagerard.com/posts/structures/</guid>
-            <description>Idea I&amp;rsquo;ve been working on a few small programming projects over the past few weeks. C++ and it&amp;rsquo;s object oriented model makes generic data structures a lot simpler, but the syntax and bloat of everything gets a little complex. Recently I&amp;rsquo;ve been using C for most everything besides small web projects. I decided to build up my own little library of generic data structures so that I can just pull these into any projects moving forward.</description>
+            <description>&lt;h2 id=&#34;idea&#34;&gt;Idea&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;ve been working on a few small programming projects over the past few weeks. C++ and it&amp;rsquo;s object oriented model makes generic data structures a lot simpler, but the syntax and bloat of everything gets a little complex. Recently I&amp;rsquo;ve been using C for most everything besides small web projects. I decided to build up my own little library of generic data structures so that I can just pull these into any projects moving forward. This should help prevent me from reinventing the wheel every time, but it has been fun to get back to the basics with this. Definitely not optimal solutions (I&amp;rsquo;ll discuss that below), but they hit the gist of what I need.&lt;/p&gt;</description>
             <content type="html"><![CDATA[<h2 id="idea">Idea</h2>
 <p>I&rsquo;ve been working on a few small programming projects over the past few weeks. C++ and it&rsquo;s object oriented model makes generic data structures a lot simpler, but the syntax and bloat of everything gets a little complex. Recently I&rsquo;ve been using C for most everything besides small web projects. I decided to build up my own little library of generic data structures so that I can just pull these into any projects moving forward. This should help prevent me from reinventing the wheel every time, but it has been fun to get back to the basics with this. Definitely not optimal solutions (I&rsquo;ll discuss that below), but they hit the gist of what I need.</p>
 <h2 id="implementation">Implementation</h2>
@@ -389,7 +521,7 @@ Macnamara said ‘he thought he saw the Emperor’s eyes moisten.’</li>
             <pubDate>Thu, 14 Oct 2021 00:00:00 -0600</pubDate>
             
             <guid>https://jagerard.com/posts/hello-world/</guid>
-            <description>I’m a computer science graduate interested in cyber security and systems programming. I don’t currently work in a technical role that would be beneficial to getting a job in the cyber field. There is a plan in place for that to change in the next few years, but in the meantime I figured that a blog would give me a platform to showcase my studies, projects, and research. It will also (hopefully) motivate me to keep moving in the right direction during my free time!</description>
+            <description>&lt;p&gt;I’m a computer science graduate interested in cyber security and systems programming. I don’t currently work in a technical role that would be beneficial to getting a job in the cyber field. There is a plan in place for that to change in the next few years, but in the meantime I figured that a blog would give me a platform to showcase my studies, projects, and research. It will also (hopefully) motivate me to keep moving in the right direction during my free time!&lt;/p&gt;</description>
             <content type="html"><![CDATA[<p>I’m a computer science graduate interested in cyber security and systems programming. I don’t currently work in a technical role that would be beneficial to getting a job in the cyber field. There is a plan in place for that to change in the next few years, but in the meantime I figured that a blog would give me a platform to showcase my studies, projects, and research. It will also (hopefully) motivate me to keep moving in the right direction during my free time!</p>
 <p>I expect that the majority of my posts here will be short updates on what I’ve been researching, interesting challenges or courses I’ve finished, and comments on current events in the industry. All this comes with the ambitious goal of eventually passing the OSCP. I don’t know if it is possible in the next few years, but setting my sights high will at least put me in a comfortable position for when I transition to a new career field down the road.</p>
 <p>If you are interested in any of my posts, have advice for the best ways to move forward, or just want to chat, then feel free to send me an email. I’m looking forward to hopping into the work and hope to share some good bits of information with you soon.</p>
