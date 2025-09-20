@@ -6,8 +6,154 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 24 Dec 2024 00:00:00 -0500</lastBuildDate>
+        <lastBuildDate>Fri, 19 Sep 2025 00:00:00 -0500</lastBuildDate>
         <atom:link href="https://jagerard.com/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>CMake Quick Reference</title>
+            <link>https://jagerard.com/posts/cmake/</link>
+            <pubDate>Fri, 19 Sep 2025 00:00:00 -0500</pubDate>
+            
+            <guid>https://jagerard.com/posts/cmake/</guid>
+            <description>&lt;p&gt;Writing this so I can quickly find a few examples of CMake setup material that I&amp;rsquo;ll inevitably need in my next project. There are plenty of great resources out there that this drew from, but these are the simple practices that have worked for me so far. If you have recommendations on things to add, then please reach out.&lt;/p&gt;
+&lt;p&gt;CMake is a cross-platform system that provides an easier interface to build the compilation tools necessary for your projects (think Makefiles, Visual Studio Solutions, Ninja files, etc.). It is a relatively intuitive interface of various text files (&lt;code&gt;CMakeLists.txt&lt;/code&gt;) that define your project structure, compilation options, build editions, library imports/exports, and even test cases. The toolset is robust and many projects rely on CMake to perform their builds with consistency in different environments. This quick-start guide takes inspiration from some of my basic projects and guidance from the fantastic book &lt;em&gt;Professional CMake: A Practical Guide&lt;/em&gt;.&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Writing this so I can quickly find a few examples of CMake setup material that I&rsquo;ll inevitably need in my next project. There are plenty of great resources out there that this drew from, but these are the simple practices that have worked for me so far. If you have recommendations on things to add, then please reach out.</p>
+<p>CMake is a cross-platform system that provides an easier interface to build the compilation tools necessary for your projects (think Makefiles, Visual Studio Solutions, Ninja files, etc.). It is a relatively intuitive interface of various text files (<code>CMakeLists.txt</code>) that define your project structure, compilation options, build editions, library imports/exports, and even test cases. The toolset is robust and many projects rely on CMake to perform their builds with consistency in different environments. This quick-start guide takes inspiration from some of my basic projects and guidance from the fantastic book <em>Professional CMake: A Practical Guide</em>.</p>
+<p>Using CMake, compilation of a project gets broken down into two steps: configuration and build. In the simplest case, CMake detects your compilation toolchain and generates the build tools in an area separate from your source code. You can then make a build call to CMake (or call the compilation tools directly) to actually generate your binaries. The main benefit is that you can define the desired state of the project in one place and still compile to that state on many operating systems and architectures. It also gives you the nice ability to define a non-default toolchain so you can cross-compile code for other platforms.</p>
+<p>The most generic use case is shown below. You can do this in a number of different ways, but I think this is the most modern and obvious way to show what is actually happening. Traditionally, you would change to a build directory and call <code>cmake</code> on the source location (<code>cmake ..</code>) instead of using the <code>-S</code> and <code>-B</code> options. But that isn’t as descriptive, so I prefer this more modern approach.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-sh" data-lang="sh"><span style="display:flex;"><span>cmake -S srcdir -B buildir
+</span></span><span style="display:flex;"><span>cmake –build builddir –target TARGETOPT
+</span></span></code></pre></div><p>If you needed to choose a specific compiler on the command line then you’d run something like <code>CC=clang CXX=clang++ cmake ..</code> to set those environment variables in the actual build scripts.</p>
+<p>If you wanted to set options then these are the most common that users configure on a project. Whether via the command line or setting within <code>CMakeLists.txt</code> files.</p>
+<p>The below are common CMake options for many packages. You can conditionally set these with <code>if</code> statements throughout any of the <code>CMakeLists.txt</code> files in your source tree.</p>
+<ul>
+<li><code>DCMAKE_BUILD_TYPE</code> - Pick from Release, RelWithDebInfo, Debug, or sometimes more.</li>
+<li><code>DCMAKE_INSTALL_PREFIX</code> - The location to install to. System install on UNIX would often be <code>/usr/local</code> (the default), user directories are often <code>~/.local</code>, or you can pick a folder.</li>
+<li><code>DBUILD_SHARED_LIBS</code> - You can set this ON or OFF to control the default for shared libraries (the author can pick one vs. the other explicitly instead of using the default, though)</li>
+<li><code>DBUILD_TESTING</code> - This is a common name for enabling tests</li>
+</ul>
+<p>Standard <code>CMakeLists.txt</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>cmake_minimum_required(VERSION 3.19)
+</span></span><span style="display:flex;"><span>project(MyProject VERSION 1.0
+</span></span><span style="display:flex;"><span>                  DESCRIPTION &#34;My Project&#34;
+</span></span><span style="display:flex;"><span>                  LANGUAGES CXX)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>add_executable(one two.cpp three.h)
+</span></span><span style="display:flex;"><span>add_library(one STATIC two.cpp three.h)
+</span></span><span style="display:flex;"><span>target_include_directories(one PUBLIC include)
+</span></span><span style="display:flex;"><span>add_library(another STATIC another.cpp another.h)
+</span></span><span style="display:flex;"><span>target_link_libraries(another PUBLIC one)
+</span></span></code></pre></div><p>General advice for project structure is to keep a <code>build</code> directory separate from source. If you want to run any linters in a workflow (see below) then you might have a <code>cmake</code> folder to define those target commands. Here is a sample project tree:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>- project
+</span></span><span style="display:flex;"><span>  - .gitignore
+</span></span><span style="display:flex;"><span>  - README.md
+</span></span><span style="display:flex;"><span>  - LICENSE.md
+</span></span><span style="display:flex;"><span>  - CMakeLists.txt
+</span></span><span style="display:flex;"><span>  - cmake
+</span></span><span style="display:flex;"><span>    - FindSomeLib.cmake
+</span></span><span style="display:flex;"><span>    - something_else.cmake
+</span></span><span style="display:flex;"><span>  - include
+</span></span><span style="display:flex;"><span>    - project
+</span></span><span style="display:flex;"><span>      - lib.hpp
+</span></span><span style="display:flex;"><span>  - src
+</span></span><span style="display:flex;"><span>    - CMakeLists.txt
+</span></span><span style="display:flex;"><span>    - lib.cpp
+</span></span><span style="display:flex;"><span>  - tests
+</span></span><span style="display:flex;"><span>    - CMakeLists.txt
+</span></span><span style="display:flex;"><span>    - testlib.cpp
+</span></span><span style="display:flex;"><span>  - docs
+</span></span><span style="display:flex;"><span>    - CMakeLists.txt
+</span></span><span style="display:flex;"><span>  - extern
+</span></span><span style="display:flex;"><span>    - testinglibrary
+</span></span><span style="display:flex;"><span>  - scripts
+</span></span><span style="display:flex;"><span>    - helper.py
+</span></span></code></pre></div><p><code>CMakePresets.json</code> allows you to specify multiple versions of the compilation chain that may be different or for different architectures so you don’t have to remember the actual <code>cmake</code> command when you go to execute. You can have configuration presets, build presets, and workflow presets. Workflows allow you to call multiple other presets in a specific sequence that you prefer. A simple example is below:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-txt" data-lang="txt"><span style="display:flex;"><span>{
+</span></span><span style="display:flex;"><span>    &#34;version&#34;: 6,
+</span></span><span style="display:flex;"><span>    &#34;configurePresets&#34;: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            &#34;name&#34;: &#34;debug&#34;,
+</span></span><span style="display:flex;"><span>            &#34;displayName&#34;: &#34;Debug&#34;,
+</span></span><span style="display:flex;"><span>            &#34;generator&#34;: &#34;Unix Makefiles&#34;,
+</span></span><span style="display:flex;"><span>            &#34;binaryDir&#34;: &#34;build/debug&#34;,
+</span></span><span style="display:flex;"><span>            &#34;cacheVariables&#34;: {
+</span></span><span style="display:flex;"><span>                &#34;CMAKE_BUILD_TYPE&#34;: &#34;Debug&#34;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            &#34;name&#34;: &#34;release&#34;,
+</span></span><span style="display:flex;"><span>            &#34;displayName&#34;: &#34;Release&#34;,
+</span></span><span style="display:flex;"><span>            &#34;generator&#34;: &#34;Unix Makefiles&#34;,
+</span></span><span style="display:flex;"><span>            &#34;binaryDir&#34;: &#34;build/release&#34;,
+</span></span><span style="display:flex;"><span>            &#34;cacheVariables&#34;: {
+</span></span><span style="display:flex;"><span>                &#34;CMAKE_BUILD_TYPE&#34;: &#34;Release&#34;
+</span></span><span style="display:flex;"><span>            }
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ],
+</span></span><span style="display:flex;"><span>    &#34;buildPresets&#34;: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            &#34;name&#34;: &#34;build-debug&#34;,
+</span></span><span style="display:flex;"><span>            &#34;displayName&#34;: &#34;Debug Build&#34;,
+</span></span><span style="display:flex;"><span>            &#34;configurePreset&#34;: &#34;debug&#34;,
+</span></span><span style="display:flex;"><span>            &#34;configuration&#34;: &#34;Debug&#34;
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            &#34;name&#34;: &#34;build-release&#34;,
+</span></span><span style="display:flex;"><span>            &#34;displayName&#34;: &#34;Release Build&#34;,
+</span></span><span style="display:flex;"><span>            &#34;configurePreset&#34;: &#34;release&#34;,
+</span></span><span style="display:flex;"><span>            &#34;configuration&#34;: &#34;Release&#34;
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            &#34;name&#34;: &#34;clang-format-debug&#34;,
+</span></span><span style="display:flex;"><span>            &#34;displayName&#34;: &#34;Debug clang-format linting&#34;,
+</span></span><span style="display:flex;"><span>            &#34;configurePreset&#34;: &#34;debug&#34;,
+</span></span><span style="display:flex;"><span>            &#34;configuration&#34;: &#34;Debug&#34;,
+</span></span><span style="display:flex;"><span>            &#34;targets&#34;: [&#34;clang-format-lint&#34;]
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ],
+</span></span><span style="display:flex;"><span>    &#34;workflowPresets&#34;: [
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            &#34;description&#34;: &#34;Debug workflow&#34;,
+</span></span><span style="display:flex;"><span>            &#34;name&#34;: &#34;debug&#34;,
+</span></span><span style="display:flex;"><span>            &#34;steps&#34;: [
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    &#34;type&#34;: &#34;configure&#34;,
+</span></span><span style="display:flex;"><span>                    &#34;name&#34;: &#34;debug&#34;
+</span></span><span style="display:flex;"><span>                },
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    &#34;type&#34;: &#34;build&#34;,
+</span></span><span style="display:flex;"><span>                    &#34;name&#34;: &#34;clang-format-debug&#34;
+</span></span><span style="display:flex;"><span>                },
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    &#34;type&#34;: &#34;build&#34;,
+</span></span><span style="display:flex;"><span>                    &#34;name&#34;: &#34;build-debug&#34;
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            ]
+</span></span><span style="display:flex;"><span>        },
+</span></span><span style="display:flex;"><span>        {
+</span></span><span style="display:flex;"><span>            &#34;description&#34;: &#34;Release workflow&#34;,
+</span></span><span style="display:flex;"><span>            &#34;name&#34;: &#34;release&#34;,
+</span></span><span style="display:flex;"><span>            &#34;steps&#34;: [
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    &#34;type&#34;: &#34;configure&#34;,
+</span></span><span style="display:flex;"><span>                    &#34;name&#34;: &#34;release&#34;
+</span></span><span style="display:flex;"><span>                },
+</span></span><span style="display:flex;"><span>                {
+</span></span><span style="display:flex;"><span>                    &#34;type&#34;: &#34;build&#34;,
+</span></span><span style="display:flex;"><span>                    &#34;name&#34;: &#34;build-release&#34;
+</span></span><span style="display:flex;"><span>                }
+</span></span><span style="display:flex;"><span>            ]
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>    ]
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>And then you can build a preset by doing something like <code>cmake –workflow –preset debug</code>, which in the case above will configure a debug version of the generators, run <code>clang-format</code> through the <code>clang-format-lint</code> CMake target, and then actually build the debug version.</p>
+<p>I also like to have a separate <code>Makefile</code> that will just take my debug or testing presets and run them in a shorter command so that I only have one command to type to keep developing.</p>
+<p>References:</p>
+<ul>
+<li><em>Professional CMake: A Practical Guide</em></li>
+</ul>
+]]></content>
+        </item>
         
         <item>
             <title>2024 Books</title>

@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 24 Dec 2024 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 19 Sep 2025 00:00:00 -0500</lastBuildDate>
     <atom:link href="https://jagerard.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CMake Quick Reference</title>
+      <link>https://jagerard.com/posts/cmake/</link>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 -0500</pubDate>
+      <guid>https://jagerard.com/posts/cmake/</guid>
+      <description>&lt;p&gt;Writing this so I can quickly find a few examples of CMake setup material that I&amp;rsquo;ll inevitably need in my next project. There are plenty of great resources out there that this drew from, but these are the simple practices that have worked for me so far. If you have recommendations on things to add, then please reach out.&lt;/p&gt;&#xA;&lt;p&gt;CMake is a cross-platform system that provides an easier interface to build the compilation tools necessary for your projects (think Makefiles, Visual Studio Solutions, Ninja files, etc.). It is a relatively intuitive interface of various text files (&lt;code&gt;CMakeLists.txt&lt;/code&gt;) that define your project structure, compilation options, build editions, library imports/exports, and even test cases. The toolset is robust and many projects rely on CMake to perform their builds with consistency in different environments. This quick-start guide takes inspiration from some of my basic projects and guidance from the fantastic book &lt;em&gt;Professional CMake: A Practical Guide&lt;/em&gt;.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>2024 Books</title>
       <link>https://jagerard.com/posts/2024books/</link>
